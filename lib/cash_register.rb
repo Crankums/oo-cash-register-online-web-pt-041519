@@ -5,7 +5,7 @@ class CashRegister
   def initialize(emp_dis = 0)
     @total = 0
     @discount = emp_dis
-    @item = []
+    @items = []
   end
 
   def total
@@ -29,6 +29,4 @@ class CashRegister
       "There is no discount to apply."
     end
   end
-
-
 end
