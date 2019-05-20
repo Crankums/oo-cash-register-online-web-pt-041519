@@ -8,7 +8,7 @@ class CashRegister
     @items = []
   end
 
-  
+
 
   def add_item(title, price, quantity = 1)
     self.total += price*quantity
@@ -26,7 +26,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    
+
   end
 
 end
